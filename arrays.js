@@ -24,7 +24,7 @@ function addElementToBeginningOfArray(array, element) {
   return [element, ...array]
 }
 function destructivelyAddElementToBeginningOfArray(array, element) {
- return var newLength = array.unshift("element")
+ return var array.unshift("element")
 }
 function addElementToEndOfArray(array, element) {
   return [...array, element]
