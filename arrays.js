@@ -36,13 +36,13 @@ function accessElementInArray(array,index) {
   return array[index]
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.shift(0);
+  return array.splice(1);
 }
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array;return array.pop();
+  return array.pop();
 
 }
 function removeElementFromEndOfArray(array) {
