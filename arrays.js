@@ -19,5 +19,7 @@ var tomatoSauceIngredients = [
   'basil',
   'oregano'
 ]
-var chocolateBars = ['snickekrs', 'hundred grand', 'kitkat', 'skittles']
-var cities = ["New York", "San Francisco"]
+var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
+function addElementToBeginningOfArray(array, element) {
+  return ["element", ...array]
+}
